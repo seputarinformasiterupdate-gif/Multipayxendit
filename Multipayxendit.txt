@@ -1,0 +1,107 @@
+Berikut versi yang sudah diganti menjadi MultipayXendit Billing System:
+
+PANDUAN MEMBUAT APLIKASI MULTIPAYXENDIT BILLING SYSTEM DI GITHUB
+1. Buat akun GitHub
+- Buka https://github.com
+- Daftar akun baru
+- Verifikasi email
+2. Buat Repository Baru
+- Klik New Repository
+- Nama: multipayxendit-billing
+- Pilih Public
+- Centang Add README
+- Klik Create Repository
+3. Struktur Aplikasi
+multipayxendit-billing/
+index.html
+login.html
+dashboard.html
+invoice.html
+css/
+style.css
+js/
+app.js
+assets/
+logo.png
+data/
+invoices.json
+4. Fitur Login
+- Email Admin
+- Password Admin
+- Tombol Login
+5. Dashboard
+- Total Customer
+- Total Tagihan
+- Total Lunas
+- Total Belum Bayar
+6. Menu Customer
+- Tambah Customer
+- Edit Customer
+- Hapus Customer
+7. Buat Tagihan
+Input:
+- Nama Customer
+- Nomor WhatsApp
+- Nominal
+- Keterangan
+- Tanggal Jatuh Tempo
+Contoh:
+Nama : Budi Santoso
+WA : 08123456789
+Nominal : Rp150.000
+Keterangan : Pembayaran Tagihan
+8. Generate Invoice
+Format:
+MPX-20260530-001
+MPX-20260530-002
+MPX-20260530-003
+9. Generate Link Pembayaran
+Contoh:
+https://username.github.io/multipayxendit-billing/invoice.html?id=MPX-20260530-001
+10. Halaman Pembayaran
+Tampilkan:
+- Nama Customer
+- Nomor Invoice
+- Nominal Tagihan
+- QRIS
+- Rekening Bank
+- Upload Bukti Transfer
+- Tombol WhatsApp
+11. Status Pembayaran
+- Belum Bayar
+- Menunggu Verifikasi
+- Lunas
+12. Database
+Gunakan Firebase:
+- Authentication
+- Firestore Database
+- Storage
+13. Upload ke GitHub
+- Upload semua file
+- Commit Changes
+14. Aktifkan GitHub Pages
+- Settings
+- Pages
+- Deploy from Branch
+- Main Branch
+- Save
+15. Website Online
+https://username.github.io/multipayxendit-billing
+16. Fitur Tambahan
+- Export PDF Invoice
+- QR Code Invoice
+- WhatsApp Otomatis
+- Dashboard Pelanggan
+- Multi Admin
+- Laporan Bulanan
+- Dark Mode
+- Riwayat Transaksi
+- Pencarian Invoice
+- Cetak Bukti Pembayaran
+NAMA APLIKASI:
+MultipayXendit Billing System
+SLOGAN:
+"Satu Platform untuk Semua Tagihan dan Pembayaran"
+DESKRIPSI:
+MultipayXendit Billing System adalah aplikasi penagihan online yang memungkinkan admin membuat invoice, menghasilkan link pembayaran unik untuk setiap pelanggan, mengelola status pembayaran, mengunggah bukti transfer, dan menyimpan data secara online menggunakan Firebase serta di-hosting melalui GitHub Pages.
+SELESAI
